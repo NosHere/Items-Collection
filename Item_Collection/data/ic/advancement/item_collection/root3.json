@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_dye",
+      "count": 1
+    },
+    "title": {
+      "translate": "stat.itemsButton",
+      "color": "red",
+      "extra": [
+        {
+          "translate": "key.advancements",
+          "color": "red"
+        },
+        {
+          "text": "3",
+          "color": "red"
+        }
+      ]
+    },
+    "description": {
+      "translate": ""
+    },
+    "background": "minecraft:textures/block/lime_stained_glass.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

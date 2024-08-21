@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_stairs",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.blackstone_stairs"
+    },
+    "description": {
+      "translate": ""
+    },
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ic:item_collection/items/blackstone_slab",
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone_stairs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_collection"
+    ]
+  ]
+}

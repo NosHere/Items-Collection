@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot",
+      "count": 1
+    },
+    "title": {
+      "translate": "item.minecraft.rabbit_foot"
+    },
+    "description": {
+      "translate": ""
+    },
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ic:item_collection/items/rabbit",
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rabbit_foot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_collection"
+    ]
+  ]
+}

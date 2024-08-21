@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.target"
+    },
+    "description": {
+      "translate": ""
+    },
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ic:item_collection/items/tall_grass",
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:target"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_collection"
+    ]
+  ]
+}

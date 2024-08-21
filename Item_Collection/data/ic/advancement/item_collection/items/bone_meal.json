@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal",
+      "count": 1
+    },
+    "title": {
+      "translate": "item.minecraft.bone_meal"
+    },
+    "description": {
+      "translate": ""
+    },
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ic:item_collection/items/bone_block",
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_collection"
+    ]
+  ]
+}

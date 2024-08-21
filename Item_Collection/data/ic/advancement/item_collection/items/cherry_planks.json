@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_planks",
+      "count": 1
+    },
+    "title": {
+      "translate": "block.minecraft.cherry_planks"
+    },
+    "description": {
+      "translate": ""
+    },
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ic:item_collection/items/cherry_log",
+  "criteria": {
+    "item_collection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_collection"
+    ]
+  ]
+}

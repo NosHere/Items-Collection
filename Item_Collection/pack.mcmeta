@@ -1,0 +1,20 @@
+{
+	"pack": {
+	  "pack_format": 48,
+	  "description": {
+		"translate": "credits_and_attribution.button.credits",
+		"with": [
+		  {
+			"text": ": ",
+			"color": "gray"
+		  },
+		  {
+			"text": "Nos",
+			"color": "red"
+		  }
+		],
+		"color": "gold"
+	  }
+	}
+  }
+  
